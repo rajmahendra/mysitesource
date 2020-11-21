@@ -27,7 +27,7 @@ html {
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Noto Sans JP', sans-serif;
+  font-family: 'Recursive', sans-serif;
   font-size: 16px;
   color: #42464c;
   background: 0 0;
@@ -41,7 +41,7 @@ a {
 }
 
 .error-text {
-  font-family: 'Roboto', Helvetica, sans-serif;
+  font-family: 'Recursive', Helvetica, sans-serif;
   text-align: center;
 }
 
@@ -110,7 +110,7 @@ a {
 }
 
 h1,h2,h3,h4,h5,h6 {
-  font-family: 'Roboto', Helvetica, sans-serif;
+  font-family: 'Recursive', Helvetica, sans-serif;
   font-weight: 800;
   color: #111111;
 }
@@ -185,7 +185,7 @@ p + p {
 }
 
 .blog-tags {
-  font-family: 'Roboto', Helvetica, sans-serif;
+  font-family: 'Recursive', Helvetica, sans-serif;
   color: #999999;
   font-size: 15px;
   margin: 30px 0;
@@ -206,7 +206,7 @@ h4.term-name > span.badge {
 }
 
 div.panel-body {
-  font-family: 'Roboto', Helvetica, sans-serif;
+  font-family: 'Recursive', Helvetica, sans-serif;
   font-weight: 800;
   border-radius: 0;
   border: none;
@@ -219,7 +219,7 @@ div.panel-body {
 }
 
 .post-read-more {
-  font-family: 'Roboto', Helvetica, sans-serif;
+  font-family: 'Recursive', Helvetica, sans-serif;
   font-weight: 800;
   float: right;
   position: relative;
@@ -394,7 +394,7 @@ input.searchBox {
 }
 
 .searchResultTitle {
-  font-family: 'Roboto', Helvetica, sans-serif;
+  font-family: 'Recursive', Helvetica, sans-serif;
   font-weight: bold;
   font-size: 24px;
   margin: 5px 0;
@@ -425,7 +425,7 @@ mark {
 
 .pager li a {
   box-sizing: border-box;
-  font-family: 'Roboto', Helvetica, sans-serif;
+  font-family: 'Recursive', Helvetica, sans-serif;
   text-transform: uppercase;
   text-align: center;
   font-size: 14px;
@@ -459,11 +459,11 @@ footer {
   text-align: center;
   margin-top: auto;
   font-size: 14px;
-  font-family: 'Roboto', Helvetica, sans-serif;
+  font-family: 'Recursive', Helvetica, sans-serif;
 }
 
 footer .copyright {
-  font-family: 'Roboto', Helvetica, sans-serif;
+  font-family: 'Recursive', Helvetica, sans-serif;
   text-align: center;
   margin-bottom: 0;
 }

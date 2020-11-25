@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+    <head>
     <title>{{- .Site.Title -}}</title>
     <!-- stylesheets -->
     <link rel="stylesheet" href="/css/bootstrap.min.css" media="all">
@@ -25,7 +24,7 @@
         }
 
         .things-i-do {
-            font-family: 'Alata', sans-serif;
+            font-family: 'Recursive', monospace;
             font-size: 25px;
         }
 
@@ -59,7 +58,7 @@
         }
 
         .about-me {
-            font-family: 'Alata', sans-serif;
+            font-family: 'Recursive', monospace;
             font-size: 25px;
         }
 
@@ -82,8 +81,12 @@
 
 <body>
     {{- partial "header.html" . -}}
-    {{- partial "myintro.html" . -}}
+    <div class="container" role="main">
+        <article class="article" class="blog-post">
+    {{.Content}}
 
+        </article>
+        </div>
     {{- partial "footer.html" . -}}
     <script src="https://kit.fontawesome.com/c4be8004cd.js" crossorigin="anonymous"></script>
 </body>

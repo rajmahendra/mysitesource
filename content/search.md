@@ -1,6 +1,6 @@
 ---
 title: "Search"
-disable_comment: false
+disable_comments: false
 ---
 
 {{<search>}}

@@ -1,8 +1,6 @@
 ---
-title: 'Our Difference'
-button: 'About us'
-weight: 2
-disable_comments: false
+title: "About"
+type: "page"
 ---
 
-Lorem ipsum dolor sit amet, et essent mediocritatem quo, choro volumus oporteat an mei. ipsum dolor sit amet, et essent mediocritatem quo,
+This is some static page where you can write about yourself.

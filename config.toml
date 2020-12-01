@@ -1,91 +1,87 @@
-theme = "harbor"
-baseurl = "https://wizardly-kowalevski-2d8eb7.netlify.app/"
+baseURL = "http://example.org/"
+languageCode = "en-us"
 title = "Rajmahendra"
-paginate = 3
-enableInlineShortcodes = true
-footnoteReturnLinkContents = "^"
+enableEmoji=true
+theme = "ink"
+paginate = 5
 
-# Optional
-# If you use googleAnalytics, you set top-level options in config.toml to the beginning of the config file like other top-level options.
-googleAnalytics = "UA-XXXXXXXX-XX"
-# and disqus too.
-disqusShortName = "rajmahendra-me"
+copyright = "© Copyright Rajmahendra"
 
-[Author]
-  name = "Rajmahendra"
+pygmentsstyle = "vs"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
 
-  [params.logo]
-  url = "icon.png" # static/images/icon.png
-  width = 50
-  height = 50
-  alt = "Logo"
+googleAnalytics = "UA-123-45"
+disqusShortname = "rajmahendra-me"
 
 
-  
-[[params.nav]]
-  identifier = "blog"
-  name = "Blog"
-  icon = "fas fa-book fa-lg"
-  url = "/blog/"
-  weight = 3
+[permalinks]
+  posts = "/blog/:year/:title/"
 
-[[params.nav]]
-  identifier = "tags"
-  name = "Tags"
-  icon = "fas fa-tag fa-lg"
-  url = "tags"
-  weight = 3
+[params]
+    customCss = "css/gallery.css"
 
-[[params.nav]]
-  identifier = "categories"
-  name = "Category"
-  icon = "fas fa-folder-open fa-lg"
-  url = "categories"
-  weight = 3
+	subtitle = "I have no special talents. I am only passionately curious"
 
-[[params.nav]]
-  identifier = "search"
-  name = "Search"
-  icon = "fas fa-search fa-lg"
-  url = "search"
-  weight = 3
+	# Optional 64x64 avatar image.
+	avatar = "/images/icon.png"
 
-[[params.nav]]
-  identifier = "archives"
-  name = "Archives"
-  icon = "fas fa-archive fa-lg"
-  url = "archive"
-  weight = 3
+	# Content types to disable Disqus on.
+	disableDisqusTypes = ["page"]
+	
+	featherIconsCDN = true
 
-[[params.nav]]
-  identifier = "about"
-  name = "About"
-  icon = "fas fa-user fa-lg"
-  url = "/about/"
-  weight = 3
+	mode = "auto" # "dark" or "auto"
+	# customCSS = "css/custom.css"  # Custom CSS applied to default styles.
+	# customDarkCSS = "css/custom-dark.css"  # Custom styles applied to dark mode css.
+	# customJS = ["js/custom.js", "js/custom1.js"]  # Custom JS scripts.
 
-# copy paste this block and change for each social media to add how many ever social media
-# acounts/links you want
+# Nav.
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "Blog"
+url = "/posts"
+weight = 2
+
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 3
+
+[[menu.main]]
+name = "Tags"
+url = "/tags"
+weight = 4
 
 
 [[params.social]]
-  url   = "https://twitter.com/"
-  icon  = "twitter" # icon name without the 'fa-'
-  icon_pack = "fab"
+name = "Twitter"
+icon = "twitter"
+url = "https://twitter.com/rajmahendrar"
+
 [[params.social]]
-  url   = "https://facebook.com/"
-  icon  = "facebook-f" # icon name without the 'fa-'
-  icon_pack = "fab"
+name = "Facebook"
+icon = "facebook"
+url = "https://facebook.com/rajmahendrar"
+
 [[params.social]]
-  url   = "https://linkedin.com/"
-  icon  = "linkedin-in" # icon name without the 'fa-'
-  icon_pack = "fab"
+name = "Github"
+icon = "github"
+url = "https://github.com/rajmahendra"
+
 [[params.social]]
-  url = "mailto:youremail@email.com"  # For a direct email link, use "mailto:test@example.org".
-  icon = "paper-plane" # icon name without the 'fa-'
-  icon_pack = "fas"
+name = "Slideshare"
+icon = "slideshare"
+url = "https://www2.slideshare.net/rajmahendra"
+
 [[params.social]]
-  url   = "https://mastodon.social/"
-  icon  = "mastodon" # icon name without the 'fa-'
-  icon_pack = "fab"
-  html_attributes = "rel=\"me\"" # Add rel attribute for Mastodon profile link verification
+name = "RSS"
+icon = "rss"
+url = "/index.xml"
+
+[taxonomies]
+   tag = "tags"

@@ -1,2 +1,4 @@
-
-
+---
+title: "Gallery"
+type: "page"
+---

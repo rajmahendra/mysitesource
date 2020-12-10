@@ -1,0 +1,16 @@
+# Show or hide by uncommenting and vice versa
+- item: "github"
+  url: "https://github.com/rajmahendra"
+- item: "twitter"
+  url: "https://twitter.com/rajmahendrar"
+- item: "linkedin"
+  url: "https://www.linkedin.com/in/rajmahendrar"
+- item: "youtube"
+  url: "https://www.youtube.com/rajmahendrar"
+- item: "facebook"
+  url: "https://facebook.com/rajmahendrar"
+- item: "instagram"
+  url: "https://instagram.com/rajmahendrar"
+- item: "rss"
+  url: "index.xml"
+  internal:  true

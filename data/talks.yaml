@@ -1,3 +1,7 @@
+- title: Kotlin in the age of digital transformation 
+  subtitle: A talk for EPam on What is Kotling and its importance and features
+  img: kotlinintheageofdigital.png
+  firstPresentedAt: EPam, Hyderabad
 - title: Welcome to Hyderabad Scala Community
   subtitle: Talk on community and how to move forward in Scala in Hyderabad wtih Hyderabad Scala Community. 
   img: welcometohyscalacommunity.jpg
@@ -5,26 +9,29 @@
   url: https://www.slideshare.net/rajmahendra/hyderabad-scala-community-first-meetup
 - title: Whats new in Java 8
   subtitle: Whats new in Java 8 
-  img: 
+  img: whatsnewonjava8.jpg
   firstPresentedAt: Java User Group Hyderabad
   url: https://www.slideshare.net/rajmahendra/whats-new-in-java-8-48237406
 - title: JUG Chennai and Adopt a JSR Program
   subtitle: JUG Chennai and Adopt a JSR Program 
-  img:
+  img: jugchennaiadoptajsr.jpg
   firstPresentedAt: JUG Chennai
   url: https://www.slideshare.net/rajmahendra/jug-chennai-adopt-ajsr
 - title: Global Day of Coderetreat
   subtitle: My first hosting Global day of Coderetreat 2013
-  img:
+  img: globaldayofcoderetreat.jpg
   firstPresentedAt:  JUG Chennai
   url: https://www.slideshare.net/rajmahendra/global-day-of-coderetreat-2013-chennai-jugchennai
 - title: JSR:354 Money and Currency API
   subtitle: JSR_354 Money and Currency API 
-  img:
+  img: JSR:354MoneyandCurrencyAPI.jpg
   firstPresentedAt: JavaOne India - Hyderabad
   url: https://www.slideshare.net/rajmahendra/jsr-354-money-and-currency-api
 - title: JUG Chennai and Adopt-a-JSR Program
   subtitle: JUG Chennai and Adopt-a-JSR Program 
-  img: 
+  img: JUG Chennai and Adopt-a-JSR Program.jpg
   firstPresentedAt:  JavaOne India - Hyderabad
   url: https://www.slideshare.net/rajmahendra/jug-chennai-adopt-ajsr
+
+
+  

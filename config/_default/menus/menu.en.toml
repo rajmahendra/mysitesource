@@ -8,21 +8,34 @@
   url = "post"
   weight = -109
 
-# Submenus are done this way: parent -> identifier
 [[main]]
-  name = "Links"
-  identifier = "Links"
+  name = "Talks"
+  url = "talks"
   weight = -108
-[[main]]
-  parent = "Links"
-  name = "LinkedIn"
-  url = "https://www.linkedin.com/"
-[[main]]
-  parent = "Links"
-  name = "Twitter"
-  url = "https://twitter.com/"
 
 [[main]]
   name = "About"
   url = "about/"
   weight = -107
+
+[[main]]
+  name = "Gallary"
+  url = "galleries/gallery1/"
+  weight = -106
+
+  
+
+# Submenus are done this way: parent -> identifier
+# [[main]]
+#   name = "Links"
+#   identifier = "Links"
+#   weight = -108
+# [[main]]
+#   parent = "Links"
+#   name = "LinkedIn"
+#   url = "https://www.linkedin.com/"
+# [[main]]
+#   parent = "Links"
+#   name = "Twitter"
+#   url = "https://twitter.com/"
+

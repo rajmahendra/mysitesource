@@ -1,13 +1,14 @@
 
   {{- $items := .Site.Data.talks }}
-  <ul class="posts" id="posts">
+
+    <ul class="posts" id="posts">
+
+
     {{- range $items }}
-   
-    <li class="post_item">
       <div class="excerpt">
         <div class="excerpt_header">
           <h3 class="post_link">
-            <a href="{{ .Permalink }}">{{ .title  }}</a>
+            <a href="{{ .url }}" target="_blank">{{ .title  }}</a>
           </h3>
           <div class="post_meta">
             First Talk @ {{ .firstPresentedAt}}
@@ -21,12 +22,9 @@
    
             <div>
               <p class="pale">{{ .subtitle }}</p>
-   
-            </div>
+               </div>
           </div>
         </div>
-      </li>
-
     {{- end }}
 
   </ul>

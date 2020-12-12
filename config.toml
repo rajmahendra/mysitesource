@@ -1,6 +1,7 @@
 # set `baseurl` to your root domain
 # if you set it to "/" share icons won't work properly on production
 baseurl = "/"  # Include trailing slash
+
 title = "Rajmahendra"
 author = "Rajmahendra"
 copyright = "Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved."
@@ -12,18 +13,21 @@ disqusShortname = "rajmahendra-in"
 
 enableEmoji=true
 
-DefaultContentLanguage = "en"
+
+#DefaultContentLanguage = "en"
 # [languages]
 # config/_default/languages.toml
 
 # [menus]
 # config/_default/menus/menu.xx.toml
 
+[permalinks]
+  posts = "/blog/:year/:title/"
+
 [taxonomies]
 category = "categories"
 tag = "tags"
 series = "series"
-
 
 [markup]
   [markup.goldmark]
@@ -101,7 +105,7 @@ enforceLightMode = false
 # enforceDarkMode = false
 
 # Text for the languages menu.
-languageMenuName = "🌐"
+#languageMenuName = "🌐"
 
 # Title separator, default to |.
 # titleSeparator = "|"

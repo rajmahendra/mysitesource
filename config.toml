@@ -5,14 +5,13 @@ baseurl = "/"  # Include trailing slash
 title = "Rajmahendra"
 author = "Rajmahendra"
 copyright = "Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved."
-# canonifyurls = true
+canonifyurls = true
 paginate = 10
 theme = "hugo-clarity"
 
 disqusShortname = "rajmahendra-in"
 
 enableEmoji=true
-
 
 #DefaultContentLanguage = "en"
 # [languages]
@@ -22,7 +21,7 @@ enableEmoji=true
 # config/_default/menus/menu.xx.toml
 
 [permalinks]
-  posts = "/blog/:year/:title/"
+posts = "/blog/:year/:title/"
 
 [taxonomies]
 category = "categories"

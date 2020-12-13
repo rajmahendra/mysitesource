@@ -1,0 +1,32 @@
+
+  {{- $items := .Site.Data.gallery }}
+
+  <ul class="posts" id="posts">
+
+
+  {{- range $items }}
+    <div class="excerpt">
+      <div class="excerpt_header">
+        <h3 class="post_link">
+          <a href="{{ .folder }}/">{{ .name  }}</a>
+        </h3>
+        <div class="post_meta">
+          First Talk @ {{ .firstPresentedAt}}
+        </div>
+      </div>
+
+      <div class="excerpt_footer partition">
+        <div class="excerpt_thumbnail">
+          <img src='/images/talks/{{ .img}}'>
+        </div>
+ 
+          <div>
+            <p class="pale">{{ .description }}</p>
+             </div>
+        </div>
+      </div>
+  {{- end }}
+
+</ul>
+
+

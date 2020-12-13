@@ -1,0 +1,16 @@
+{{ define "main" }}
+  
+{{ $pages := .Pages }}
+{{ if .IsHome }}
+  {{ $pages = where site.RegularPages "Type" "in" site.Params.mainSections }}
+{{ end }}
+<div class="grid-inverse wrap content">
+  <ul class="posts" id="posts">
+  {{ .Content}}
+  </ul>
+  {{- partial "sidebar" . }}
+</div>
+
+
+
+{{ end }}

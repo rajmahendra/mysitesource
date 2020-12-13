@@ -20,7 +20,7 @@
 
 [[main]]
   name = "Gallary"
-  url = "galleries/gallery1/"
+  url = "gallery"
   weight = -106
 
   

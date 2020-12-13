@@ -1,0 +1,6 @@
+- name: "Community"
+  description: "My experience with Java Community and Events"
+  folder: "community"
+- name: "Gardening"
+  description: "Clicks of my Garden!; Indoor, Outdoor, organic, etc."
+  folder: "gardening"

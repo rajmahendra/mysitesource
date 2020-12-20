@@ -21,7 +21,7 @@ enableEmoji=true
 # config/_default/menus/menu.xx.toml
 
 [permalinks]
-posts = "/blog/:year/:title/"
+  posts = "/blog/:year/:title/"
 
 [taxonomies]
 category = "categories"

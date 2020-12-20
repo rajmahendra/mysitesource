@@ -58,7 +58,7 @@ introDescription = "Software Engineer, Agilist, Community Guy, Java Champion"
 customCSS = ["css/custom.css"]
 
 # Google analytics Id
-ga_analytics = "XXXXXXXXXX"
+ga_analytics = "UA-138128815-1"
 
 # Baidu analytics Id
 # baidu_analytics = "XXXXXXXX"
